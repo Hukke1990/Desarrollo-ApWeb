@@ -1,3 +1,7 @@
+//Integrantes:
+// Romero Ana Belen
+// Bordet Gaston
+
 // Consignas..
 //  Crear una interfaz “Animal” que posea el atributo “nombre”, así como también la
 // definición de un método “gritar” que retorne un string que representa el ruido que

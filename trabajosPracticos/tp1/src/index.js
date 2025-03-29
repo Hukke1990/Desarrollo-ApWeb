@@ -1,7 +1,6 @@
-// Consignas..
-//  Crear una interfaz “Animal” que posea el atributo “nombre”, así como también la
-// definición de un método “gritar” que retorne un string que representa el ruido que
-// hace el animal al gritar
+//Integrantes:
+// Romero Ana Belen
+// Bordet Gaston
 // Crear las clases “Perro”, “Gato”, y “Vaca” que implementen la interfaz “Animal”
 var Perro = /** @class */ (function () {
     function Perro(nombre) {
@@ -10,6 +9,8 @@ var Perro = /** @class */ (function () {
     Perro.prototype.gritar = function () {
         return "¡Guau guau!";
     };
+    // Se agrega el metodo toString() para mostrar el nombre del animal
+    // en la consola al imprimir el objeto, de lo contrario muestra "[object Object]"
     Perro.prototype.toString = function () {
         return "Perro ".concat(this.nombre);
     };
@@ -22,6 +23,8 @@ var Gato = /** @class */ (function () {
     Gato.prototype.gritar = function () {
         return "¡Miau!";
     };
+    // Se agrega el metodo toString() para mostrar el nombre del animal
+    // en la consola al imprimir el objeto, de lo contrario muestra "[object Object]"
     Gato.prototype.toString = function () {
         return "Gato ".concat(this.nombre);
     };
@@ -34,6 +37,8 @@ var Vaca = /** @class */ (function () {
     Vaca.prototype.gritar = function () {
         return "¡Muuu!";
     };
+    // Se agrega el metodo toString() para mostrar el nombre del animal
+    // en la consola al imprimir el objeto, de lo contrario muestra "[object Object]"
     Vaca.prototype.toString = function () {
         return "Vaca ".concat(this.nombre);
     };
