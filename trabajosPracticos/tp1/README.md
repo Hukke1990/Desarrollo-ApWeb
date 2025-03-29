@@ -1,8 +1,15 @@
-# Desarollo Aplicaciones Web /  Trabajo Practico 1
+# 📜Desarrollo Aplicaciones Web
+## Docentes
+- **Titular de Asignatura Faure Cristian**
+- **Jefe de Práctica: Juan M. Buffa**
 
-## Integrantes
+## 📌Trabajo Practico N°1
 
-```
-Romero Ana Belen
-Bordet Gaston
-```
+Primer trabajo practico, donde ponemos en practica lo aprendido sobre TypeScript
+
+## ✒️ Integrantes
+
+- **Romero Ana Belen**
+- **Bordet Gaston**
+
+
