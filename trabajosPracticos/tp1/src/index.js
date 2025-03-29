@@ -100,7 +100,7 @@ filaNumeros.agregar(3);
 var filaStrings = new FilaGenerica();
 filaStrings.agregar("Hola");
 filaStrings.agregar("Mundo");
-filaStrings.agregar("TypeScript");
+filaStrings.agregar("!!!!!!");
 var filaAnimales = new FilaGenerica();
 filaAnimales.agregar(perro);
 filaAnimales.agregar(vaca);

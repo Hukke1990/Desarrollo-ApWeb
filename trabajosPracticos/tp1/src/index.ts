@@ -149,7 +149,7 @@ filaNumeros.agregar(3);
 const filaStrings = new FilaGenerica<string>();
 filaStrings.agregar("Hola");
 filaStrings.agregar("Mundo");
-filaStrings.agregar("TypeScript");
+filaStrings.agregar("!!!!!!");
 const filaAnimales = new FilaGenerica<Animal>();
 filaAnimales.agregar(perro);
 filaAnimales.agregar(vaca);
