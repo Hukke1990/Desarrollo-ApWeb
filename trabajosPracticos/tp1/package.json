@@ -1,0 +1,22 @@
+{
+  "name": "mi-proyecto-ts",
+  "version": "1.0.0",
+  "description": "Proyecto de ejemplo en TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/mi-proyecto-ts.git"
+  },
+  "keywords": [],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
