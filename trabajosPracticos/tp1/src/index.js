@@ -23,8 +23,6 @@ var Gato = /** @class */ (function () {
     Gato.prototype.gritar = function () {
         return "¡Miau!";
     };
-    // Se agrega el metodo toString() para mostrar el nombre del animal
-    // en la consola al imprimir el objeto, de lo contrario muestra "[object Object]"
     Gato.prototype.toString = function () {
         return "Gato ".concat(this.nombre);
     };
@@ -37,8 +35,6 @@ var Vaca = /** @class */ (function () {
     Vaca.prototype.gritar = function () {
         return "¡Muuu!";
     };
-    // Se agrega el metodo toString() para mostrar el nombre del animal
-    // en la consola al imprimir el objeto, de lo contrario muestra "[object Object]"
     Vaca.prototype.toString = function () {
         return "Vaca ".concat(this.nombre);
     };
@@ -52,7 +48,7 @@ var vaca = new Vaca("Molly");
 var gato = new Gato("Lulu");
 //Ejecutar el método “describirAnimal” para cada una de las constantes creadas (3 veces en total).
 function describirAnimal(animal) {
-    console.log("".concat(animal.nombre, " dice: ").concat(animal.gritar()));
+    console.log("".concat(animal.toString(), " dice: \"").concat(animal.gritar(), "\""));
 }
 describirAnimal(perro);
 describirAnimal(vaca);

@@ -42,9 +42,6 @@ class Gato implements Animal {
   gritar(): string {
     return "¡Miau!";
   }
-
-  // Se agrega el metodo toString() para mostrar el nombre del animal
-  // en la consola al imprimir el objeto, de lo contrario muestra "[object Object]"
   toString(): string {
     return `Gato ${this.nombre}`;
   }
@@ -60,9 +57,6 @@ class Vaca implements Animal {
   gritar(): string {
     return "¡Muuu!";
   }
-
-  // Se agrega el metodo toString() para mostrar el nombre del animal
-  // en la consola al imprimir el objeto, de lo contrario muestra "[object Object]"
   toString(): string {
     return `Vaca ${this.nombre}`;
   }
@@ -79,7 +73,7 @@ const gato: Gato = new Gato("Lulu");
 //Ejecutar el método “describirAnimal” para cada una de las constantes creadas (3 veces en total).
 
 function describirAnimal(animal: Animal): void {
-  console.log(`${animal.nombre} dice: ${animal.gritar()}`);
+  console.log(`${animal.toString()} dice: "${animal.gritar()}"`);
 }
 
 describirAnimal(perro);
